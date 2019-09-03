@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DryAWSS3.h"
 
 FOUNDATION_EXPORT double DryAWSS3_iOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char DryAWSS3_iOSVersionString[];
