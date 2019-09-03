@@ -1,0 +1,6 @@
+framework module DryAWSS3_iOS {
+  umbrella header "DryAWSS3-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

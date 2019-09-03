@@ -1,0 +1,6 @@
+framework module Pods_DryAWSS3_iOS_Example {
+  umbrella header "Pods-DryAWSS3-iOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

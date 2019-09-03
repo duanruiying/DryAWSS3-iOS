@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0921CBE0735BDF61A23C87E0A738AFAE /* Pods-DryAWSS3-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60544A9BCA6CC3A55B7AB752CD4ADFBD /* Pods-DryAWSS3-iOS_Tests-dummy.m */; };
+		2343689BA6E2CDC6EA007D2268EBD774 /* DryAWSS3-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72141FCF65E8E753013476A46861121A /* DryAWSS3-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3065F751C6F7EAD06198CF00279BF2DF /* DryAWSS3-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4715D811ABE02BB1C98C1AC84FCDB9C0 /* DryAWSS3-iOS-dummy.m */; };
+		3642461EDEC80DB6E290455F835B8E63 /* Pods-DryAWSS3-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AD62255B33B80EA5C6FECBFF45E7C0 /* Pods-DryAWSS3-iOS_Example-dummy.m */; };
+		37493611231E646C00352780 /* DryAWSS3.h in Headers */ = {isa = PBXBuildFile; fileRef = 3749360F231E646C00352780 /* DryAWSS3.h */; };
+		37493612231E646C00352780 /* DryAWSS3.m in Sources */ = {isa = PBXBuildFile; fileRef = 37493610231E646C00352780 /* DryAWSS3.m */; };
+		392B851907C125589AFB66E13E0F4F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		457C24B87C5A55C84B65E1E0544AC259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6BAAE3D0559037F449281D13BAC6547D /* Pods-DryAWSS3-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 474F5B75E8C577A812F4034F2D2F4503 /* Pods-DryAWSS3-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		924A814C322DC615936F392674E57ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EC5735099E824762A440D9837F70A74A /* Pods-DryAWSS3-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFCC9E95A05B5180E1AD928E51F47B7 /* Pods-DryAWSS3-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41B2CE1DD91601353A954FC6FA0F7967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EAE61524683DA809679291B1FFAB7E5;
+			remoteInfo = "DryAWSS3-iOS";
+		};
+		4F77F8449C2DED552DAFCF33F9DA5D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C20D691699B16E9C000C543BCA3600B;
+			remoteInfo = "Pods-DryAWSS3-iOS_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204903421DF040240DBCE918EAD4AFB3 /* DryAWSS3-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryAWSS3-iOS-prefix.pch"; sourceTree = "<group>"; };
+		21DF9C05C86FBED223AE058A11E3D4A4 /* Pods-DryAWSS3-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryAWSS3-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22120DEB79F13A8C12D77BE992F880D4 /* DryAWSS3-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DryAWSS3-iOS.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35010E5533BD88EBFA282EA2421E315F /* Pods_DryAWSS3_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryAWSS3_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3667D7485EB96AE5F2D504D2DE49A5C2 /* Pods-DryAWSS3-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryAWSS3-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		3749360F231E646C00352780 /* DryAWSS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DryAWSS3.h; sourceTree = "<group>"; };
+		37493610231E646C00352780 /* DryAWSS3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DryAWSS3.m; sourceTree = "<group>"; };
+		404E656B5BE349E6A38F9A1378145F43 /* DryAWSS3-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DryAWSS3-iOS-Info.plist"; sourceTree = "<group>"; };
+		40AD62255B33B80EA5C6FECBFF45E7C0 /* Pods-DryAWSS3-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DryAWSS3-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		4715D811ABE02BB1C98C1AC84FCDB9C0 /* DryAWSS3-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DryAWSS3-iOS-dummy.m"; sourceTree = "<group>"; };
+		474F5B75E8C577A812F4034F2D2F4503 /* Pods-DryAWSS3-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DryAWSS3-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		47F1BB795C44780F89C7587CA1C0EE3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5BC9198FB66E83392C2309243A5FA32D /* Pods-DryAWSS3-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DryAWSS3-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		60544A9BCA6CC3A55B7AB752CD4ADFBD /* Pods-DryAWSS3-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DryAWSS3-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		642EEFC4331CCBBD8EF58A25FDC5900C /* DryAWSS3-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DryAWSS3-iOS.xcconfig"; sourceTree = "<group>"; };
+		72141FCF65E8E753013476A46861121A /* DryAWSS3-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryAWSS3-iOS-umbrella.h"; sourceTree = "<group>"; };
+		7934F85C75F21258B0622BAFD03D5A4E /* Pods_DryAWSS3_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryAWSS3_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803FF33E8DBBE8195C486B4AD90CBECE /* Pods-DryAWSS3-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryAWSS3-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8831019581A0DF5AAC9DC18328E2D295 /* Pods-DryAWSS3-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DryAWSS3-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8E8B78BEA0697A303BB671A287AADA18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8FFCC9E95A05B5180E1AD928E51F47B7 /* Pods-DryAWSS3-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DryAWSS3-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		99D63FEBC91061CBF1AAC1B42C191670 /* Pods-DryAWSS3-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryAWSS3-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A28409252ACD356649BDF3144E47D62 /* Pods-DryAWSS3-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryAWSS3-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7EE4276F5A97F05836C33572D5BA62F /* DryAWSS3_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DryAWSS3_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE486AAD5003238660A42D3D8257140 /* Pods-DryAWSS3-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryAWSS3-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE0A9CC56CDDCC9E89DFB267DF4F531 /* Pods-DryAWSS3-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryAWSS3-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		B30440C10624A576CD1409401623278F /* Pods-DryAWSS3-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryAWSS3-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D23EABB700CCC31568F8CE155545F264 /* DryAWSS3-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "DryAWSS3-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDFFEB89FE1099A4376B59CF7DC2B194 /* Pods-DryAWSS3-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryAWSS3-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E17662FC99DA25C95B16F55BB32544AB /* Pods-DryAWSS3-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DryAWSS3-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		F346E79A7777FE9F16D359BFC28FF177 /* Pods-DryAWSS3-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryAWSS3-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719BB2AAE466F59300355017323FA352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924A814C322DC615936F392674E57ACC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5617BC1C89334E944F9AF01E59AC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392B851907C125589AFB66E13E0F4F06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14985D372DFEFE8D7D545A980459E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457C24B87C5A55C84B65E1E0544AC259 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA58D9CAF59B7ACA7F4A431BDB543B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7EE4276F5A97F05836C33572D5BA62F /* DryAWSS3_iOS.framework */,
+				35010E5533BD88EBFA282EA2421E315F /* Pods_DryAWSS3_iOS_Example.framework */,
+				7934F85C75F21258B0622BAFD03D5A4E /* Pods_DryAWSS3_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24184D1A32F0635FA366C6AC614BEE96 /* DryAWSS3-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3749360D231E646C00352780 /* Code */,
+				5289A1A76086C7AE588BFBB3BF18BF5E /* Pod */,
+				EA863E9738489E9436357AADE27C7343 /* Support Files */,
+			);
+			name = "DryAWSS3-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		32CBBAE3CDCF68CCD0AD134B284C2AF1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24184D1A32F0635FA366C6AC614BEE96 /* DryAWSS3-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3749360D231E646C00352780 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				3749360E231E646C00352780 /* Public */,
+			);
+			name = Code;
+			path = "DryAWSS3-iOS/Classes/Code";
+			sourceTree = "<group>";
+		};
+		3749360E231E646C00352780 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				3749360F231E646C00352780 /* DryAWSS3.h */,
+				37493610231E646C00352780 /* DryAWSS3.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		5289A1A76086C7AE588BFBB3BF18BF5E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D23EABB700CCC31568F8CE155545F264 /* DryAWSS3-iOS.podspec */,
+				8E8B78BEA0697A303BB671A287AADA18 /* LICENSE */,
+				47F1BB795C44780F89C7587CA1C0EE3D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6AD9FABEC7BFF3A77D94DC37D78783D9 /* Pods-DryAWSS3-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E17662FC99DA25C95B16F55BB32544AB /* Pods-DryAWSS3-iOS_Example.modulemap */,
+				DDFFEB89FE1099A4376B59CF7DC2B194 /* Pods-DryAWSS3-iOS_Example-acknowledgements.markdown */,
+				9A28409252ACD356649BDF3144E47D62 /* Pods-DryAWSS3-iOS_Example-acknowledgements.plist */,
+				40AD62255B33B80EA5C6FECBFF45E7C0 /* Pods-DryAWSS3-iOS_Example-dummy.m */,
+				8831019581A0DF5AAC9DC18328E2D295 /* Pods-DryAWSS3-iOS_Example-frameworks.sh */,
+				AFE0A9CC56CDDCC9E89DFB267DF4F531 /* Pods-DryAWSS3-iOS_Example-Info.plist */,
+				8FFCC9E95A05B5180E1AD928E51F47B7 /* Pods-DryAWSS3-iOS_Example-umbrella.h */,
+				B30440C10624A576CD1409401623278F /* Pods-DryAWSS3-iOS_Example.debug.xcconfig */,
+				99D63FEBC91061CBF1AAC1B42C191670 /* Pods-DryAWSS3-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-DryAWSS3-iOS_Example";
+			path = "Target Support Files/Pods-DryAWSS3-iOS_Example";
+			sourceTree = "<group>";
+		};
+		8CD65B2D025DF98A765A75887D028653 /* Pods-DryAWSS3-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC9198FB66E83392C2309243A5FA32D /* Pods-DryAWSS3-iOS_Tests.modulemap */,
+				803FF33E8DBBE8195C486B4AD90CBECE /* Pods-DryAWSS3-iOS_Tests-acknowledgements.markdown */,
+				21DF9C05C86FBED223AE058A11E3D4A4 /* Pods-DryAWSS3-iOS_Tests-acknowledgements.plist */,
+				60544A9BCA6CC3A55B7AB752CD4ADFBD /* Pods-DryAWSS3-iOS_Tests-dummy.m */,
+				3667D7485EB96AE5F2D504D2DE49A5C2 /* Pods-DryAWSS3-iOS_Tests-Info.plist */,
+				474F5B75E8C577A812F4034F2D2F4503 /* Pods-DryAWSS3-iOS_Tests-umbrella.h */,
+				ACE486AAD5003238660A42D3D8257140 /* Pods-DryAWSS3-iOS_Tests.debug.xcconfig */,
+				F346E79A7777FE9F16D359BFC28FF177 /* Pods-DryAWSS3-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-DryAWSS3-iOS_Tests";
+			path = "Target Support Files/Pods-DryAWSS3-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		BC84C830E7E9070C8F77C445A007FFE5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AD9FABEC7BFF3A77D94DC37D78783D9 /* Pods-DryAWSS3-iOS_Example */,
+				8CD65B2D025DF98A765A75887D028653 /* Pods-DryAWSS3-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				32CBBAE3CDCF68CCD0AD134B284C2AF1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0BA58D9CAF59B7ACA7F4A431BDB543B3 /* Products */,
+				BC84C830E7E9070C8F77C445A007FFE5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA863E9738489E9436357AADE27C7343 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22120DEB79F13A8C12D77BE992F880D4 /* DryAWSS3-iOS.modulemap */,
+				642EEFC4331CCBBD8EF58A25FDC5900C /* DryAWSS3-iOS.xcconfig */,
+				4715D811ABE02BB1C98C1AC84FCDB9C0 /* DryAWSS3-iOS-dummy.m */,
+				404E656B5BE349E6A38F9A1378145F43 /* DryAWSS3-iOS-Info.plist */,
+				204903421DF040240DBCE918EAD4AFB3 /* DryAWSS3-iOS-prefix.pch */,
+				72141FCF65E8E753013476A46861121A /* DryAWSS3-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DryAWSS3-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		565A05C200AAE4B66713976DF03BF252 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5735099E824762A440D9837F70A74A /* Pods-DryAWSS3-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746C848A519852BB6221526D68989836 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37493611231E646C00352780 /* DryAWSS3.h in Headers */,
+				2343689BA6E2CDC6EA007D2268EBD774 /* DryAWSS3-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19D73CE2BFB4C655DC34F9F324F507B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAAE3D0559037F449281D13BAC6547D /* Pods-DryAWSS3-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C20D691699B16E9C000C543BCA3600B /* Pods-DryAWSS3-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C721346D8E0CBBCD6125BE974ABB49D4 /* Build configuration list for PBXNativeTarget "Pods-DryAWSS3-iOS_Example" */;
+			buildPhases = (
+				565A05C200AAE4B66713976DF03BF252 /* Headers */,
+				79F9EC10FF32B5CF85513D9B209C269C /* Sources */,
+				8E5617BC1C89334E944F9AF01E59AC17 /* Frameworks */,
+				B34FD717A10AAF63DE719484B5A04B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0081C9A07504696A81B34C18006F3F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DryAWSS3-iOS_Example";
+			productName = "Pods-DryAWSS3-iOS_Example";
+			productReference = 35010E5533BD88EBFA282EA2421E315F /* Pods_DryAWSS3_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EAE61524683DA809679291B1FFAB7E5 /* DryAWSS3-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7E2B8942132BFA8B2F2CB37AB0E32C /* Build configuration list for PBXNativeTarget "DryAWSS3-iOS" */;
+			buildPhases = (
+				746C848A519852BB6221526D68989836 /* Headers */,
+				416B0D41102476686D58E6098660FADE /* Sources */,
+				719BB2AAE466F59300355017323FA352 /* Frameworks */,
+				6211592BE9980717985FDC02A7C21F9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DryAWSS3-iOS";
+			productName = "DryAWSS3-iOS";
+			productReference = A7EE4276F5A97F05836C33572D5BA62F /* DryAWSS3_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F60C548374A7FF8FF9E72B7B7DEE0AE3 /* Pods-DryAWSS3-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5E1EEFB2DE119E2E25AD0833CD532B /* Build configuration list for PBXNativeTarget "Pods-DryAWSS3-iOS_Tests" */;
+			buildPhases = (
+				B19D73CE2BFB4C655DC34F9F324F507B /* Headers */,
+				8D445EB6067B795BC5FC8EDBC185A06C /* Sources */,
+				F14985D372DFEFE8D7D545A980459E20 /* Frameworks */,
+				5CA4DF78CFCD1BDEA446A30A9623D0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73F7FA91B0110A7E471036DA8D1AE44E /* PBXTargetDependency */,
+			);
+			name = "Pods-DryAWSS3-iOS_Tests";
+			productName = "Pods-DryAWSS3-iOS_Tests";
+			productReference = 7934F85C75F21258B0622BAFD03D5A4E /* Pods_DryAWSS3_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0BA58D9CAF59B7ACA7F4A431BDB543B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EAE61524683DA809679291B1FFAB7E5 /* DryAWSS3-iOS */,
+				5C20D691699B16E9C000C543BCA3600B /* Pods-DryAWSS3-iOS_Example */,
+				F60C548374A7FF8FF9E72B7B7DEE0AE3 /* Pods-DryAWSS3-iOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA4DF78CFCD1BDEA446A30A9623D0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6211592BE9980717985FDC02A7C21F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34FD717A10AAF63DE719484B5A04B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416B0D41102476686D58E6098660FADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3065F751C6F7EAD06198CF00279BF2DF /* DryAWSS3-iOS-dummy.m in Sources */,
+				37493612231E646C00352780 /* DryAWSS3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F9EC10FF32B5CF85513D9B209C269C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3642461EDEC80DB6E290455F835B8E63 /* Pods-DryAWSS3-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D445EB6067B795BC5FC8EDBC185A06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0921CBE0735BDF61A23C87E0A738AFAE /* Pods-DryAWSS3-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73F7FA91B0110A7E471036DA8D1AE44E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DryAWSS3-iOS_Example";
+			target = 5C20D691699B16E9C000C543BCA3600B /* Pods-DryAWSS3-iOS_Example */;
+			targetProxy = 4F77F8449C2DED552DAFCF33F9DA5D3C /* PBXContainerItemProxy */;
+		};
+		B0081C9A07504696A81B34C18006F3F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DryAWSS3-iOS";
+			target = 9EAE61524683DA809679291B1FFAB7E5 /* DryAWSS3-iOS */;
+			targetProxy = 41B2CE1DD91601353A954FC6FA0F7967 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		263AEF56E9D8F384398DC5C8C7C1D77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D63FEBC91061CBF1AAC1B42C191670 /* Pods-DryAWSS3-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryAWSS3-iOS_Example/Pods-DryAWSS3-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryAWSS3-iOS_Example/Pods-DryAWSS3-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5177D6E5AE29073C3C96FB94A1E259B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30440C10624A576CD1409401623278F /* Pods-DryAWSS3-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryAWSS3-iOS_Example/Pods-DryAWSS3-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryAWSS3-iOS_Example/Pods-DryAWSS3-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62D4FE6B4D56BD8E265A551762F5CE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642EEFC4331CCBBD8EF58A25FDC5900C /* DryAWSS3-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryAWSS3-iOS/DryAWSS3-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryAWSS3-iOS/DryAWSS3-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DryAWSS3-iOS/DryAWSS3-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryAWSS3_iOS;
+				PRODUCT_NAME = DryAWSS3_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC5EE74226D291D10BBE70F1D6BD2FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE486AAD5003238660A42D3D8257140 /* Pods-DryAWSS3-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryAWSS3-iOS_Tests/Pods-DryAWSS3-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryAWSS3-iOS_Tests/Pods-DryAWSS3-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA40AD22AB22935AE0912E61A7B53BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642EEFC4331CCBBD8EF58A25FDC5900C /* DryAWSS3-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryAWSS3-iOS/DryAWSS3-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryAWSS3-iOS/DryAWSS3-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DryAWSS3-iOS/DryAWSS3-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryAWSS3_iOS;
+				PRODUCT_NAME = DryAWSS3_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F413F390FC8E21B7CD7CF7884B28A3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F346E79A7777FE9F16D359BFC28FF177 /* Pods-DryAWSS3-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryAWSS3-iOS_Tests/Pods-DryAWSS3-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryAWSS3-iOS_Tests/Pods-DryAWSS3-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5E1EEFB2DE119E2E25AD0833CD532B /* Build configuration list for PBXNativeTarget "Pods-DryAWSS3-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5EE74226D291D10BBE70F1D6BD2FDD /* Debug */,
+				F413F390FC8E21B7CD7CF7884B28A3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7E2B8942132BFA8B2F2CB37AB0E32C /* Build configuration list for PBXNativeTarget "DryAWSS3-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA40AD22AB22935AE0912E61A7B53BCE /* Debug */,
+				62D4FE6B4D56BD8E265A551762F5CE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C721346D8E0CBBCD6125BE974ABB49D4 /* Build configuration list for PBXNativeTarget "Pods-DryAWSS3-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5177D6E5AE29073C3C96FB94A1E259B5 /* Debug */,
+				263AEF56E9D8F384398DC5C8C7C1D77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
