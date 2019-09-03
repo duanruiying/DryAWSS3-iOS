@@ -16,15 +16,15 @@
 @implementation DryAWSS3
 
 /// 单例
-+ (instancetype)sharedInstance {
++ (instancetype)shared {
     
-    static DryAWSS3 *theInstance = nil;
+    static DryAWSS3 *instance = nil;
     static dispatch_once_t oncePredicate;
     dispatch_once(&oncePredicate, ^{
-        theInstance = [[DryAWSS3 alloc] init];
+        instance = [[DryAWSS3 alloc] init];
     });
     
-    return theInstance;
+    return instance;
 }
 
 /// 构造

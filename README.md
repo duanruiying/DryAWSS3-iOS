@@ -3,11 +3,9 @@ iOS: 亚马逊AWSS3简化集成(文件上传)
 [官网](https://us-east-1.signin.aws.amazon.com)
 [Github](https://github.com/aws-amplify/aws-sdk-ios)
 
-
 ## Prerequisites
 * iOS 10.0+
 * ObjC、Swift
-
 
 ## Installation
 * pod 'DryAWSS3-iOS'
