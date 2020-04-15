@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # Git
   s.name        = 'DryAWSS3-iOS'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = 'DryAWSS3-iOS'
   s.homepage    = 'https://github.com/duanruiying/DryAWSS3-iOS'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }
